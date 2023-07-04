@@ -22,6 +22,9 @@
 }
 
 .article-column {
+  max-width: 100%;
+  height: 100%;
+
   .article-column__content {
     position: relative;
   }
@@ -50,6 +53,10 @@
       text-decoration: underline;
     }
   }
+
+  .text-info_bottom {
+    bottom: 4%;
+  }
 }
 
 .text-info {
@@ -58,13 +65,13 @@
   }
 
   .text-info__title {
-    font-size: 1.625rem;
-    line-height: 138%;
-  }
-}
+    font-size: 1.25rem;
+    line-height: 150%;
 
-.text-info_bottom {
-  bottom: 4%;
+    &:not(:last-child) {
+      margin-bottom: 0.625rem;
+    }
+  }
 }
 
 .label_top {
