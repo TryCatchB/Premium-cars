@@ -23,6 +23,7 @@
   .column-footer__text {
     font-weight: 400;
     color: #cecece;
+
     &:not(:last-child) {
       margin-bottom: 23.7%;
     }
@@ -30,6 +31,7 @@
 
   .column-footer__title {
     font-size: 1.25rem;
+
     &:not(:last-child) {
       margin-bottom: 10.3%;
     }
@@ -39,6 +41,7 @@
 .social {
   .social__title {
     font-size: 1.25rem;
+
     &:not(:last-child) {
       margin-bottom: 8.5%;
     }
@@ -51,6 +54,7 @@
 
   .social__item {
     transition: opacity 0.3s ease-in-out;
+
     &:hover {
       opacity: 0.8;
     }
@@ -87,9 +91,11 @@
     &:not(:last-child) {
       margin-bottom: 9.2%;
     }
+
     & .post__image {
       margin-bottom: 0;
     }
+
     & .post__image img {
       max-width: none;
     }
@@ -99,6 +105,7 @@
 .email {
   .email__title_white {
     color: inherit;
+
     &:not(:last-child) {
       margin-bottom: 14%;
     }
@@ -106,6 +113,7 @@
 
   .email__input_dark {
     background-color: #373737;
+    
     &::placeholder {
       color: #aeb3bb;
     }

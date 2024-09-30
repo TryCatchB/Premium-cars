@@ -59,8 +59,7 @@
 }
 
 @media (max-width: 767px) {
-  .burger-open,
-  .burger-close {
+  :is(.burger-open, .burger-close) {
     position: relative;
     z-index: 5;
     display: flex;
@@ -74,8 +73,7 @@
     }
   }
 
-  .burger-open,
-  .burger-close {
+  :is(.burger-open, .burger-close) {
     & span {
       width: 1.875rem;
       height: 0.125rem;

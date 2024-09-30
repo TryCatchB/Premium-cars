@@ -49,6 +49,7 @@
     position: absolute;
     left: 5.3%;
     bottom: 8.4%;
+    
     &:hover {
       text-decoration: underline;
     }
