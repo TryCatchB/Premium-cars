@@ -3,11 +3,12 @@
 
   .footer__content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 8.2%;
     row-gap: 1.875rem;
     color: #fff;
-    padding: 5.2% 0px 4.1% 0px;
+    padding-block: 5.2% 4.1% ;
   }
 
   .footer__column {
@@ -70,6 +71,7 @@
     &:not(:last-child) {
       margin-bottom: 11.8%;
     }
+
     &:hover {
       text-decoration: underline;
     }
@@ -90,14 +92,6 @@
 
     &:not(:last-child) {
       margin-bottom: 9.2%;
-    }
-
-    & .post__image {
-      margin-bottom: 0;
-    }
-
-    & .post__image img {
-      max-width: none;
     }
   }
 }
@@ -144,16 +138,6 @@
   .menu__list {
     justify-content: flex-end;
     gap: 2.1875rem;
-  }
-}
-
-/* MEDIA (TABLET) */
-
-@media (max-width: 786px) {
-  .footer {
-    .footer__content {
-      justify-content: center;
-    }
   }
 }
 

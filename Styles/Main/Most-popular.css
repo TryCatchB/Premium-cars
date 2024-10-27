@@ -14,29 +14,13 @@
 
   .most-popular__posts {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2.5%;
-    row-gap: 30px;
+    row-gap: 1.875rem;
   }
 
   .most-popular__post {
     flex: 0 1 16.875rem;
-  }
-}
-
-.post {
-  .post__image img {
-    max-width: 100%;
-    object-fit: cover;
-  }
-}
-
-/* MEDIA (TABLET) */
-
-@media (max-width: 872px) {
-  .most-popular {
-    .most-popular__posts {
-      justify-content: center;
-    }
   }
 }
