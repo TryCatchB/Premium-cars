@@ -44,6 +44,11 @@
   .article-column__image img {
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   .article-column__text-info {
@@ -51,9 +56,9 @@
     left: 5.3%;
     bottom: 8.4%;
     
-    &:hover {
-      text-decoration: underline;
-    }
+      &:hover {
+        text-decoration: underline;
+      }
   }
 
   .text-info_bottom {
